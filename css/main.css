@@ -14,15 +14,12 @@ body {
 }
 
 .featured-work {
-	margin-top: 30px;
-	margin-bottom: 15px;
+	margin: 30px 0 15px;
 }
 
-#featured-heading{
-	font-size: 45px;
-	font-weight: 400;
-	font-family: 'Courgette', cursive;
-	color:white;
+#featured-heading {
+	font: 45px 400 "Courgette", cursive;
+	color: white;
 }
 
 @media screen and (max-width: 575px) {
@@ -30,33 +27,15 @@ body {
 		font-weight: 100;
 		font-size: 30px;
 	}
-}
-
-@media screen and (max-width: 436px) {
-	#featured-heading {
-		font-weight: 100;
-		font-size: 25px;
-	}
-}
-
-#thinner-font {
-	font-weight: 200;
-	font-size: 80px;
-	font-family: 'Allura', cursive;
-	color: white;
-}
-
-#thicker-font {
-	font-family: 'Courgette', cursive;
-	font-weight: 200;
-	font-size: 30px;
-	color: white;
-}
-
-@media screen and (max-width: 575px) {
+	
 	#thinner-font {
 		font-weight: 100;
 		font-size: 60px;
+	}
+	
+	#thicker-font {
+		font-weight: 100;
+		font-size: 20px;
 	}
 }
 
@@ -65,21 +44,29 @@ body {
 		font-weight: 100;
 		font-size: 40px;
 	}
-}
 
-@media screen and (max-width: 575px) {
-	#thicker-font {
-		font-weight: 100;
-		font-size: 20px;
-	}
-}
-
-@media screen and (max-width: 436px) {
 	#thicker-font {
 		font-weight: 100;
 		font-size: 18px;
 	}
+	
+	#featured-heading {
+		font-weight: 100;
+		font-size: 25px;
+	}
 }
+
+#thinner-font {
+	font: 200 80px "Allura", cursive;
+	color: white;
+}
+
+#thicker-font {
+	font: 30px 200 "Courgette", cursive;
+	color: white;
+}
+
+
 .cap-height {
 	max-height: 500px;
 }
@@ -104,5 +91,5 @@ body {
 
 .app-font {
 	color: white;
-	font-family:'Courgette', cursive; 
+	font-family:"Courgette", cursive; 
 }
