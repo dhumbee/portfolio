@@ -18,7 +18,7 @@ body {
 }
 
 #featured-heading {
-	font: 45px 400 "Courgette", cursive;
+	font: 400 45px "Courgette", cursive;
 	color: white;
 }
 
@@ -62,7 +62,7 @@ body {
 }
 
 #thicker-font {
-	font: 30px 200 "Courgette", cursive;
+	font: 200 30px "Courgette", cursive;
 	color: white;
 }
 
